@@ -1,8 +1,3 @@
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -22,7 +17,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  border-radius: nullpx;
 }
 .web {
   color: var(--one-color);
@@ -32,6 +26,14 @@ body {
 }
 .studio-white {
   color: var(--five-color);
+}
+.nav-menu :hover,
+.nav-menu :focus {
+  color: var(--one-color);
+}
+.contacts :hover,
+.contacts :focus {
+  color: var(--one-color);
 }
 .nav-menu a {
   letter-spacing: 0.02em;
@@ -49,14 +51,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-}
-.buttons {
-  background: #e5e5e5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  color: var(--four-color);
 }
 .images-tittle {
   font-weight: bold;
@@ -86,7 +80,8 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
-.buttons:hover {
+.buttons:hover,
+.buttons:focus {
   background-color: var(--one-color);
   color: var(--five-color);
 }
@@ -96,8 +91,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  text-align: center;
   letter-spacing: 0.03em;
+}
+.cards-a {
+  text-decoration: none;
 }
 /* Styles for <main> index.html */
 .hero {
@@ -117,13 +114,9 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--one-color);
   color: var(--five-color);
-  /* не применяются свойства */
-  /* padding: 10 32 10 32;
-  margin: 360 732 210 732; */
 }
 .qualities-tittle {
   font-weight: bold;
@@ -139,11 +132,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--three-color);
 }
-.our-vork {
+.our-vork-tittle {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--four-color);
 }
@@ -152,4 +144,8 @@ body {
 }
 .our-team-h3-p {
   background-color: var(--five-color);
+}
+.our-team-a {
+  text-decoration: none;
+  color: var(--four-color);
 }
