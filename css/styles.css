@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: var(--text-color);
 }
 
 ul {
@@ -53,6 +54,16 @@ a {
         letter-spacing: 0.02em;
         color: var(--text-color);
     }
+
+    .header_nav-list-link:hover,
+    .header_nav-list-link:focus {
+        color: var(--accent-color);
+    }
+
+    .header_contact-list-link:hover,
+    .header_contact-list-link:focus {
+        color: var(--accent-color);
+    }
 /* ===header end=== */
 
 /* ===hero start=== */
@@ -69,7 +80,7 @@ a {
         letter-spacing: 0.02em;
     }
 
-    .button {
+    .hero-button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -80,6 +91,7 @@ a {
         color: var(--white-color);
         width: 169px;
         height: 56px;
+        cursor: pointer;
 
         background-color: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -105,7 +117,7 @@ a {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--text-color);
+        
     }
 /* ===description end=== */
 
@@ -144,7 +156,7 @@ a {
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
-        color: var(--text-color);
+        
     }
 /* ===our team end=== */
 
@@ -172,6 +184,7 @@ a {
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
 
     font-weight: 500;
     font-size: 16px;
@@ -181,6 +194,12 @@ a {
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--btn-text-color);
+}
+
+.btn-list_button:hover,
+.btn-list_button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 /* ===btn-list end=== */
 
@@ -197,6 +216,6 @@ a {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--text-color);
+        
     }
 /* ===card-list end=== */
